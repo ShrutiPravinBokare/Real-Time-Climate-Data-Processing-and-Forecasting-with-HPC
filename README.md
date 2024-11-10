@@ -37,7 +37,7 @@ d) Benchmarking: Evaluate the speed and efficiency of parallel data processing v
 
 # Sample Workflow
 
-a) Data Retrieval: The data_fetcher module retrieves current climate data.
-b) Data Processing: The data_processor module uses parallel threads to process data.
-c) Forecasting: The forecast_model module computes forecasts based on processed data.
-d) Performance Evaluation: Benchmarks compare serial and parallel processing times, visualized in a Jupyter notebook.
+1) Data Retrieval: The data_fetcher module retrieves current climate data.
+2) Data Processing: The data_processor module uses parallel threads to process data.
+3) Forecasting: The forecast_model module computes forecasts based on processed data.
+4) Performance Evaluation: Benchmarks compare serial and parallel processing times, visualized in a Jupyter notebook.
