@@ -13,10 +13,10 @@ Real-Time Climate Data Processing and Forecasting with HPC" leverages high-perfo
 
 # Objectives
 
-a) Demonstrate HPC Techniques: Highlight the improvements in processing speed using parallel computing.
-b) Provide Real-Time Insights: Quickly process and analyze live climate data.
-c) Enable Forecasting: Use data analysis to create simple, reliable forecasts based on recent climate data trends.
-d) Benchmarking: Evaluate the speed and efficiency of parallel data processing versus serial processing.
+1) Demonstrate HPC Techniques: Highlight the improvements in processing speed using parallel computing.
+2) Provide Real-Time Insights: Quickly process and analyze live climate data.
+3) Enable Forecasting: Use data analysis to create simple, reliable forecasts based on recent climate data trends.
+4) Benchmarking: Evaluate the speed and efficiency of parallel data processing versus serial processing.
 
 # Use Cases
 
