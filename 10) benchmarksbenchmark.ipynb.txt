@@ -1,0 +1,13 @@
+This Jupyter notebook would contain graphs of processing times under different configurations and a comparison of serial vs. parallel processing. Here's an example of code content:
+
+
+import matplotlib.pyplot as plt
+
+# Sample benchmark data
+labels = ['Serial', 'Parallel']
+times = [2.5, 0.9]
+
+plt.bar(labels, times, color=['red', 'blue'])
+plt.ylabel('Processing Time (seconds)')
+plt.title('Performance Comparison')
+plt.show()

@@ -1,0 +1,9 @@
+#include "forecast_model.h"
+#include <numeric>
+#include <iostream>
+
+float ForecastModel::predict(const std::vector<float>& data)
+ {
+    float sum = std::accumulate(data.begin(), data.end(), 0.0f);
+    return sum / data.size();  // Simple average-based forecast
+}

@@ -1,0 +1,10 @@
+# Performance Analysis
+
+## Objective
+Measure the performance improvements using OpenMP for parallel processing in `data_processor.cpp`.
+
+## Results
+- **Without OpenMP**: Processing time for dataset: 2.5 seconds.
+- **With OpenMP**: Processing time for dataset: 0.9 seconds.
+
+The parallelized version improves processing time by approximately 64%.

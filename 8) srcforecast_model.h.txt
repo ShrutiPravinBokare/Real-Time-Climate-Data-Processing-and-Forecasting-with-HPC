@@ -1,0 +1,11 @@
+#ifndef FORECAST_MODEL_H
+#define FORECAST_MODEL_H
+#include <vector>
+
+class ForecastModel 
+{
+public:
+    float predict(const std::vector<float>& data);
+};
+
+#endif

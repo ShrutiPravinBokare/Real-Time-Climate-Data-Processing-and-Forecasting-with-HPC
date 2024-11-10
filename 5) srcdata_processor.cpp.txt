@@ -1,0 +1,14 @@
+#include "data_processor.h"
+#include <omp.h>
+#include <vector>
+#include <iostream>
+
+std::vector<float> DataProcessor::processData(const std::map<std::string, float>& data)
+ {
+    std::vector<float> processed_data;
+    #pragma omp parallel for
+    for (const auto& [key, value] : data) {
+        processed_data.push_back(value * 1.1); // Example processing
+    }
+    return processed_data;
+}

@@ -1,0 +1,12 @@
+#ifndef DATA_PROCESSOR_H
+#define DATA_PROCESSOR_H
+#include <map>
+#include <vector>
+
+class DataProcessor
+ {
+public:
+    std::vector<float> processData(const std::map<std::string, float>& data);
+};
+
+#endif

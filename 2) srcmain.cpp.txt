@@ -1,0 +1,24 @@
+#include "data_fetcher.h"
+#include "data_processor.h"
+#include "forecast_model.h"
+
+int main() 
+{
+    // Initialize components
+    DataFetcher fetcher;
+    DataProcessor processor;
+    ForecastModel model;
+
+    // Fetch data
+    auto raw_data = fetcher.fetchData();
+    
+    // Process data
+    auto processed_data = processor.processData(raw_data);
+    
+    // Forecast
+    auto forecast = model.predict(processed_data);
+
+    // Output forecast
+    std::cout << "Forecast for the next period: " << forecast << std::endl;
+    return 0;
+}

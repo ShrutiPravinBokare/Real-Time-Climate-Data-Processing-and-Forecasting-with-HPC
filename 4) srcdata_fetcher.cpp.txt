@@ -1,0 +1,13 @@
+#include "data_fetcher.h"
+#include <iostream>
+#include <map>
+
+std::map<std::string, float> DataFetcher::fetchData() 
+{
+    // Here we simulate data fetching, replace with API call if needed
+    std::map<std::string, float> data;
+    data["temperature"] = 20.0;
+    data["humidity"] = 65.0;
+    data["wind_speed"] = 5.5;
+    return data;
+}

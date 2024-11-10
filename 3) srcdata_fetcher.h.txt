@@ -1,0 +1,12 @@
+#ifndef DATA_FETCHER_H
+#define DATA_FETCHER_H
+#include <string>
+#include <map>
+
+class DataFetcher 
+{
+public:
+    std::map<std::string, float> fetchData();
+};
+
+#endif
